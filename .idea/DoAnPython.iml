@@ -4,5 +4,13 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="tuan02" />
+    <orderEntry type="module" module-name="tuan03" />
+    <orderEntry type="module" module-name="tuan04" />
+    <orderEntry type="module" module-name="tuan05" />
+    <orderEntry type="module" module-name="OOP" />
+    <orderEntry type="module" module-name="Numpy" />
+    <orderEntry type="module" module-name="KiemTra" />
+    <orderEntry type="module" module-name="NguoiBaoVeTraiDat" />
   </component>
 </module>

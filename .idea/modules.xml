@@ -3,6 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DoAnPython.iml" filepath="$PROJECT_DIR$/.idea/DoAnPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../KiemTra/.idea/KiemTra.iml" filepath="$PROJECT_DIR$/../../KiemTra/.idea/KiemTra.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/NguoiBaoVeTraiDat/.idea/NguoiBaoVeTraiDat.iml" filepath="$USER_HOME$/Documents/NguoiBaoVeTraiDat/.idea/NguoiBaoVeTraiDat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Numpy/.idea/Numpy.iml" filepath="$PROJECT_DIR$/../../Numpy/.idea/Numpy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../OOP/.idea/OOP.iml" filepath="$PROJECT_DIR$/../../OOP/.idea/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../tuan02/.idea/tuan02.iml" filepath="$PROJECT_DIR$/../../tuan02/.idea/tuan02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../tuan03/.idea/tuan03.iml" filepath="$PROJECT_DIR$/../../tuan03/.idea/tuan03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../tuan04/.idea/tuan04.iml" filepath="$PROJECT_DIR$/../../tuan04/.idea/tuan04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../tuan05/.idea/tuan05.iml" filepath="$PROJECT_DIR$/../../tuan05/.idea/tuan05.iml" />
     </modules>
   </component>
 </project>
