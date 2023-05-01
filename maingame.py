@@ -3,15 +3,15 @@ from pygame import mixer
 import os
 import time
 import random
-
-pygame.font.init()
 pygame.init()
+pygame.font.init()
 WIDTH, HEIGHT = 600, 750
 SIZE = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Bảo vệ trái đất")
+pygame.display.set_caption("Bảo vệ Trái Đất")
 mixer.music.load('assets/Jojo.mp3')
 mixer.music.play(-1)
 mixer.music.set_volume(0.7)
+Shoot_Sound = mixer.Sound('assets/shoot.wav')
 # Load images
 RED_UFO = pygame.image.load(os.path.join("assets", "red_ufo.png"))
 BLUE_UFO = pygame.image.load(os.path.join("assets", "blue_ufo.png"))
@@ -187,7 +187,7 @@ def main():
     player_vel = 5
     bullet_vel = 4
 
-    player = Player(300, 650)
+    player = Player(250, 650)
 
     clock = pygame.time.Clock()
 
@@ -255,8 +255,7 @@ def main():
             wave_length += 5
             for i in range(wave_length):
                 # random vi tri cua enemy, toa do x, toa do y
-                enemy = Enemy(random.randrange(100, WIDTH - 100), random.randrange(-1500, -100),
-                              random.choice(["red", "blue", "green"]))
+                enemy = Enemy(random.randrange(100, WIDTH - 100), random.randrange(-1500, -100),random.choice(["red", "blue", "green"]))
                 enemies.append(enemy)
 
         for event in pygame.event.get():
@@ -274,7 +273,6 @@ def main():
             player.y += player_vel
         if keys[pygame.K_SPACE]:
             player.shoot()
-            Shoot_Sound = mixer.Sound('assets/shoot.wav')
             Shoot_Sound.play()
 
         for enemy in enemies[:]:
@@ -291,6 +289,8 @@ def main():
             elif enemy.y + enemy.get_height() > HEIGHT:
                 player.health -= 10
                 enemies.remove(enemy)
+
+
         player.move_bullets(-bullet_vel, enemies)
 
 

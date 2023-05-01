@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DoAnPython.iml" filepath="$PROJECT_DIR$/.idea/DoAnPython.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../KiemTra/.idea/KiemTra.iml" filepath="$PROJECT_DIR$/../../KiemTra/.idea/KiemTra.iml" />
-      <module fileurl="file://$USER_HOME$/Documents/NguoiBaoVeTraiDat/.idea/NguoiBaoVeTraiDat.iml" filepath="$USER_HOME$/Documents/NguoiBaoVeTraiDat/.idea/NguoiBaoVeTraiDat.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../Numpy/.idea/Numpy.iml" filepath="$PROJECT_DIR$/../../Numpy/.idea/Numpy.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../OOP/.idea/OOP.iml" filepath="$PROJECT_DIR$/../../OOP/.idea/OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../tuan02/.idea/tuan02.iml" filepath="$PROJECT_DIR$/../../tuan02/.idea/tuan02.iml" />
